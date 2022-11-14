@@ -8,6 +8,5 @@ html {
 
 .body {
     font-family: 'Lato', sans-serif;
-    background: rgb(16, 130, 166);
-    background: linear-gradient(90deg, rgba(16, 130, 166, 1) 0%, rgba(83, 201, 156, 1) 46%, rgba(0, 212, 255, 1) 100%);
+    background-image: url("../images/background.jpg");
 }
