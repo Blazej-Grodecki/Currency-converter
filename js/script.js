@@ -33,9 +33,9 @@
     }
   };
 
-  const updateResultText = (amount, exchange, currency) => {
-    const exchangeElement = document.querySelector(".js-exchange");
-    exchangeElement.value = `${exchange.toFixed(2)} ${currency}`;
+  const updateResultText = (amount, result, currency) => {
+    const resultElement = document.querySelector(".js-result");
+    resultElement.value = `${result.toFixed(2)} ${currency}`;
   };
 
   const onFormSubmit = (event) => {
@@ -47,9 +47,9 @@
     const amount = +amountElement.value;
     const currency = currencyElement.value;
 
-    const exchange = calculateResult(amount, currency);
+    const result = calculateResult(amount, currency);
 
-    updateResultText(amount, exchange, currency);
+    updateResultText(amount, result, currency);
   };
 
   const init = () => {
