@@ -1,6 +1,6 @@
 # Asian currency converter
 
-made by Błażej Gróecki - DEMO: https://blazej-grodecki.github.io/Currency-converter/
+made by Błażej Gródecki - DEMO: https://blazej-grodecki.github.io/Currency-converter/
 
 ## About.
 Simple Asian currency converter.
