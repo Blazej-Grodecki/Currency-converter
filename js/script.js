@@ -1,6 +1,6 @@
 {
   console.log(
-    "Witam w pełni zautomatyzowanym kalkulatorze azjatychkich walut. Miłego użytkowania"
+    "Witam w pełni zautomatyzowanym kalkulatorze azjatyckich walut. Miłego użytkowania!"
   );
 
   const calculateResult = (amount, currency) => {
@@ -33,7 +33,7 @@
     }
   };
 
-  const updateResultText = (amount, result, currency) => {
+  const updateResultText = (result, currency) => {
     const resultElement = document.querySelector(".js-result");
     resultElement.value = `${result.toFixed(2)} ${currency}`;
   };
@@ -49,13 +49,13 @@
 
     const result = calculateResult(amount, currency);
 
-    updateResultText(amount, result, currency);
+    updateResultText(result, currency);
   };
 
   const init = () => {
     const formElement = document.querySelector(".js-form");
 
-    formElement = addEventListener("submit", onFormSubmit);
+    formElement.addEventListener("submit", onFormSubmit);
   };
 
   init();
