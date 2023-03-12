@@ -1,5 +1,5 @@
 .form__fieldset {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 20px;
     border-radius: 5px;
     margin: 20px 0;
@@ -47,7 +47,7 @@
 
 .form__result {
     display: flex;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     width: 100%;
     min-height: 40px;
     border-radius: 5px;
